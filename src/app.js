@@ -40,7 +40,7 @@ app.get('/about',(req,res) => {
 
 app.get('/help',(req,res) => {
     res.render('help',{
-        helpText: ' Help Yourself',
+        helpText: 'This site is made using API calls from mapbox.com and weatherstack.com ',
         title: 'Help',
         name : 'Shives Singh'
     })
